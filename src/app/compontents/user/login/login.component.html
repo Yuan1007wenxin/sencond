@@ -1,0 +1,32 @@
+<div class="container-fuild">
+    <div class="row">
+      <div class="logo">
+        <img src="../../../../assets/img/logomin.png" alt="">
+      </div>
+      <img src="../../../../assets/img/bg.jpg" class="bgImg">
+    </div>
+    <div class="login"> 
+      <div class="now">
+          <input type="text" placeholder="手机号码" class="tel" [(ngModel)]="loginTel">
+          <input type="text" placeholder="您的密码" class="tel" [(ngModel)]="password">  
+          <p class="pull-right forget">忘记密码</p>  
+          <button class="btn btn-warning text-register" (click)="doLogin()">登录</button>          
+      </div>       
+      <div class="down">
+        <p>用合作网站账户直接登录</p>
+        <div class="logoImg"></div>
+        <p class="microblog">新浪微博</p>
+  
+        <div class="QQ"></div>
+        <p class="text-QQ">QQ</p>
+  
+        <div class="weixin"></div>
+        <p class="text-weixin">微信</p>
+      </div>
+    </div>
+  <div>
+  </div>
+  </div>
+  <p class="doRegister">
+    还没有账号? <a (click)="doRegister()">马上注册</a>
+  </p>

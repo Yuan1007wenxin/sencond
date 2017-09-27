@@ -1,0 +1,22 @@
+.leftImage{
+    border: 1px solid red;
+}
+.rightImage{
+    border: 1px solid red;    
+}
+.btn-all{
+    width: 100%;
+    text-align: left;
+    color: #666666;
+}
+.rightImage{
+    font-size: 30px;
+    color: #666666;
+}
+.userImg{
+    width: 200px;
+}
+.select button{
+    width: 200px;
+    margin-top: 10px;
+}

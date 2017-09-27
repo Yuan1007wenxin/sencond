@@ -1,0 +1,119 @@
+.bgImg{
+    width: 100%;
+    height: 100%;
+}
+.login{
+    width: 370px;
+    height: 375px;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.forget{
+    padding-right: 20px;
+    font-size: 15px;
+    color: #ffa800;
+}
+.now{
+    width: 370px;
+    height: 125px;
+    margin-top:35px;
+    padding-left: 25px;    
+}
+.down{
+    width: 350px;
+    height: 120px;
+    margin-top: 80px;
+    margin-left: 10px;
+    
+}
+.tel{
+    width: 320px;
+    height: 40px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.text-register{
+    width: 320px;
+    height: 40px; 
+}
+.register p{
+    text-shadow: none;
+    font-size: 16px;
+    color: #bab5bf;
+}
+.logo{
+    position: absolute;
+    left: 48%;
+    top: 38%;    
+}
+.logoImg{
+    width: 42px;
+    height: 42px;
+    background: url("../../../../assets/img/c_icon3.gif");
+    background-position:0 0;
+    position: relative;
+    left: 35px;
+    text-shadow: none;
+}
+.microblog{
+    line-height: 30px;
+    color: black;
+    padding-left: 25px;
+}
+.QQ{
+    width: 42px;
+    height: 42px;
+    background: url("../../../../assets/img/c_icon3.gif");
+    background-position:-42px 0;
+    position: relative;
+    left: 122px;
+    top:-80px;
+    text-shadow: none;
+}
+.text-QQ{
+    line-height: 30px;
+    color: black;
+    padding-left: 25px;
+    position: relative;
+    top:-80px;
+    left: 106px;
+}
+.weixin{
+    width: 42px;
+    height: 42px;
+    background: url("../../../../assets/img/c_icon3.gif");
+    background-position:-295px 0;
+    position: relative;
+    left: 209px;
+    top:-160px;
+    text-shadow: none;
+}
+.text-weixin{
+    line-height: 30px;
+    color: black;
+    padding-left: 25px;
+    position: relative;
+    top:-160px;
+    left: 190px;
+}
+.doRegister{
+    width: 180px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #585144;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 45%;
+    top:95%;
+}

@@ -1,0 +1,31 @@
+<div class="container-fuild">
+  <div class="row">
+    <div class="logo">
+      <img src="../../../../assets/img/logomin.png" alt="">
+    </div>
+    <img src="../../../../assets/img/bg.jpg" class="bgImg">
+  </div>
+  <div class="register"> 
+    <div class="now">
+        <input type="text" placeholder="您的手机号码" class="tel" [(ngModel)]="userTel" ><br>
+        <span [ngClass]="styleClass" class="error pull-right">{{msg}}</span><br>
+        <button class="btn btn-warning text-register" (click)="doRegiest()">立即注册</button>
+    </div>   
+    <div class="down">
+      <p>用合作网站账户直接登录</p>
+      <div class="logoImg"></div>
+      <p class="microblog">新浪微博</p>
+
+      <div class="QQ"></div>
+      <p class="text-QQ">QQ</p>
+
+      <div class="weixin"></div>
+      <p class="text-weixin">微信</p>
+    </div>
+  </div>
+<div>
+</div>
+</div>
+<p class="doRegister">
+  已经注册? <a (click)="doLogin()">马上登陆</a>
+</p>

@@ -1,0 +1,33 @@
+.navbar-default{
+    width: 100%;
+    height: 65px;
+    background-color:#f8f8f8;
+    border:none;
+}
+.navbar-nav{
+    margin-left: 90px;    
+}
+.conent a{
+    color: black;
+}
+.navbar-right{
+    padding-right: 140px;
+}
+.active{
+    background-color: #ff9d00;
+    margin-left: 20px;
+    height: 65px;
+}
+.headImg img{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.headImg img span{
+    margin-top: 10px;
+}
+.title:hover{
+    background: #ff9d00;
+    height: 67px;
+}

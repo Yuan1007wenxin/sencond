@@ -1,0 +1,54 @@
+<div class="container-fuild">
+  <div class="row">
+      <div class="col-xs-12 col-sm-12 col-lo-12 col-md-12">
+        <nav class="navbar navbar-default" role="navigation"> 
+            <div class="container-fluid"> 
+              <div class="navbar-header">
+                  <ul class="nav navbar-nav">
+                      <li>
+                        <img src="../../../assets/img/logo.png" alt="">
+                      </li>
+                      <li class="title">
+                        <a  (click)="handleMouse()">游记</a>
+                      </li>
+                      <li class="title">
+                        <a  (click)="handleTogether()">结伴而行</a>
+                      </li>
+                      <li class="title">                         
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          预留链接
+                          <span class="caret"></span>
+                        </a> 
+                        <ul class="dropdown-menu">
+                           <li>1</li>
+                           <li>1</li>
+                           <li>1</li>
+                           <li>1</li>                           
+                        </ul>            
+                      </li>
+                    </ul>                
+              </div> 
+                <ul class="nav navbar-nav navbar-right"> 
+                 
+                      <li class="dropdown" >
+                          <a href="" data-toggle="dropdown">
+                            <img [src]="addUrl(user.userImgUrl)" alt="">
+                            <span class="caret"></span>                      
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li class="glyphicon glyphicon-file">发布游记</li><br>
+                              <li class="glyphicon glyphicon-file">发布结伴</li><br>
+                              <li class="glyphicon glyphicon-file">我的发布</li><br>
+                              <li class="glyphicon glyphicon-cog">设置</li><br>
+                              <li class="glyphicon glyphicon-off">退出</li><br>
+                          </ul>
+                        </li>
+                </ul> 
+              </div> 
+          </nav>         
+    </div>
+  </div>
+  <!-- <app-carousel></app-carousel> -->
+</div>
+
+

@@ -1,0 +1,82 @@
+.title{
+    margin-top: 50px;
+}
+.reply button{
+    width: 200px;
+    height: 45px;    
+    line-height: 25px;
+    text-align: center;
+    border-bottom: 5px solid #ff9d00;    
+}
+.reply-text{
+    width: 100%;
+    height: 245px;
+    border: 1px solid #ccc;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.reply-submit button{
+    width: 135px;
+    height: 35px;
+    line-height: 15px;
+    text-align: center;
+    /* color: white; */
+    /* background-color: #ff9d00; */
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: -30px;   
+}
+.footerNav{
+    margin-top: 50px;
+}
+.bgImg{
+    width: 100%;
+}
+.smailImg{
+    width: 100%;
+}
+.reply-comment{
+    width: 360px;
+    height: 60px;
+    font-size: 30px;
+    border: 2px solid #ccc;
+    margin-top:15px;
+    line-height: 60px;
+    text-align: center;
+}
+.comment{
+    width: 360px;
+    height: 50px;
+    background-color: #efefef;
+    margin-top: 25px;
+}
+.comment-text{
+    width: 360px;
+    height: 70px;
+    padding-top: 10px;
+}
+.comment-text p{
+    font-size: 16px;
+    height: 70px;
+}
+.headImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.witer{
+    color: #ff9d00;
+}
+.text-titel{
+    position: absolute;
+    top:30%;
+    left: 30%;
+    color: white;
+    font-size: 50px;
+    text-shadow:2px 2px 2px black;
+}
+.text-smail{
+    font-size: 30px;
+    padding-left:230px;
+}
